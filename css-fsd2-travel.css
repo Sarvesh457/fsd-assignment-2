@@ -1,0 +1,173 @@
+/* 2) Transport modes in Pune css */
+
+:root {
+    --font1: "Poppins", sans-serif;
+    --font2: "Lora", serif;
+    --font3: "Roboto", sans-serif;
+    --color-primary: #2d3436; /* Dark grey */
+    --color-secondary: #dfe6e9; /* Light grey */
+    --color-accent: #e17055; /* Orange */
+    --color-accent-light: #fab1a0; /* Light orange */
+    --color-background: #f1f2f6; /* Light background */
+    --color-text-dark: #2d3436; /* Dark text */
+    --color-text-light: #fff; /* Light text */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font3);
+    background-color: var(--color-background);
+    color: var(--color-text-dark);
+}
+
+.header {
+    padding: .5rem 3rem;
+    width: 100vw;
+    height: 15vh;
+    color: var(--color-text-light);
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    width: 45%;
+}
+
+.nav ul {
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: var(--color-text-light);
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 0px;
+    cursor: pointer;
+    color: var(--color-accent);
+    font-family: var(--font2);
+}
+
+.home {
+    width: 100vw;
+    height: 80vh;
+    padding: 20px;
+}
+
+.home .content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home .content h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--color-accent);
+}
+
+.home .content p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-accent-light);
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    height: 100vh;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#home {
+    background-color: #ffeaa7;
+}
+
+#about {
+    background-color: #fab1a0;
+}
+
+#car {
+    background-color: #74b9ff;
+}
+
+#auto {
+    background-color: #ff7675;
+}
+
+#bus {
+    background-color: #fdcb6e;
+}
+
+#metro {
+    background-color: #81ecec;
+}
+
+#train {
+    background-color: #a29bfe;
+}
+
+/* Footer */
+footer {
+    bottom: 0;
+    padding: 20px;
+    width: 100vw;
+    height: 30vh;
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font1);
+}
+
+.icons {
+    height: 10vh;
+    padding: 5px 0;
+    gap: 10px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    padding: 5px;
+    color: var(--color-text-light);
+}
+
+footer p {
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+    line-height: 2px;
+}
